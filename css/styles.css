@@ -3,6 +3,25 @@
     background-image: url("/images/h_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 40vh;
     color: white;
+}
+.services{
+    text-align: center;
+    background-image: url("/images/s_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    color: white;
+}
+.about{
+    text-align: center;
+}
+#contact{
+    background-image: url("/images/c_image.jpg");
+    text-align: center;
+    height: 500px;
+    background-size: cover;
+    width: 1500px;
+    background-repeat: no-repeat;
 }
