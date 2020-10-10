@@ -3,17 +3,15 @@
     background-image: url("/images/h_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
-    width: 2000;
+    height: 500px;
     color: white;
 }
 .services{
     text-align: center;
     background-image: url("/images/s_image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
     color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .about{
     text-align: center;
@@ -26,6 +24,7 @@
     /* width: 1500px; */
     background-repeat: no-repeat;
     /* background-image:center; */
+    color: white;
 }
 #footer{
     text-align: center;
@@ -36,12 +35,15 @@
   text-align: center;
 }
 
-#clear{
+#enock{
     background:none;
  
 }
+h2{
+    text-align: center;
+}
 
-#clear::placeholder{
+#enock::placeholder{
     color: white;
 }
 .button{
