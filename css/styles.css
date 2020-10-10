@@ -3,7 +3,8 @@
     background-image: url("/images/h_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40vh;
+    height: 600px;
+    width: 2000;
     color: white;
 }
 .services{
@@ -11,7 +12,7 @@
     background-image: url("/images/s_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40vh;
+    height: 400px;
     color: white;
 }
 .about{
@@ -22,6 +23,27 @@
     text-align: center;
     height: 500px;
     background-size: cover;
-    width: 1500px;
+    /* width: 1500px; */
     background-repeat: no-repeat;
+    /* background-image:center; */
+}
+#footer{
+    text-align: center;
+    justify-content: center;
+
+}
+.whatwedo{
+  text-align: center;
+}
+
+#clear{
+    background:none;
+ 
+}
+
+#clear::placeholder{
+    color: white;
+}
+.button{
+    text-align: center;
 }
