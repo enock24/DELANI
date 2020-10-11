@@ -5,6 +5,7 @@
     background-size: cover;
     height: 500px;
     color: white;
+    padding-top: 150px;
 }
 .services{
     text-align: center;
@@ -48,4 +49,7 @@ h2{
 }
 .button{
     text-align: center;
+}
+h1{
+    font-weight: bolder;
 }
