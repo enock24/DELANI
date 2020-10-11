@@ -68,6 +68,7 @@ h1{
     cursor: pointer;
     text-align: center;
   }
+
   #overlay1{width: 100%; text-align: center; height: 100%;background-color: white;opacity: 0.4;position: absolute; top: 0.0em;display: none;color: black; font-size: 20px;padding-top: 30%;border:3px ,solid green;cursor: pointer;}
   #overlay2{width: 100%;  text-align: center; height: 100%;background-color: white;opacity: 0.4;position: absolute; top: 0.0em;display: none;color: black; font-size: 20px;padding-top: 30%;border:3px ,solid green;cursor: pointer;}
   #overlay3{width: 100%;  text-align: center; height: 100%;background-color: white;opacity: 0.4;position: absolute; top: 0.0em;display: none;color: black; font-size: 20px;padding-top: 30%;border:3px ,solid green;cursor: pointer;}
@@ -75,6 +76,7 @@ h1{
   #overlay5{width: 100%;  text-align: center; height: 100%;background-color: white;opacity: 0.4;position: absolute; top: 0.0em;display: none;color: black; font-size: 20px;padding-top: 30%;border:3px ,solid green;cursor: pointer;}
   #overlay6{width: 100%;  text-align: center; height: 100%;background-color: white;opacity: 0.4;position: absolute; top: 0.0em;display: none;color: black; font-size: 20px;padding-top: 30%;border:3px ,solid green;cursor: pointer;}
   #overlay7{width: 100%;  text-align: center; height: 100%;background-color: white;opacity: 0.4;position: absolute; top: 0.0em;display: none;color: black; font-size: 20px;padding-top: 30%;border:3px ,solid green;cursor: pointer;}
+  
   #name,#email,#message{
       background-color: transparent;
   }
