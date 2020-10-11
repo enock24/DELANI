@@ -30,4 +30,14 @@ $(document).ready(function(){
         $("#image3").show();
     });
 });
+// $(document).ready(function(event){
+//     $("#enoc").submit(function(){
+//         var name=$("input#enock1").val();
+//         var email=$("input#enock2").val();
+//         var message=$("textarea#enock3").val();
+//         if($("input#enock1").val()&& $("input#enock2").val()){
+//             alert(name +"we have received your message. Thank you for reaching out to us.");
+//         }
+//     });
+// });
 
