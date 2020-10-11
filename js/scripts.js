@@ -30,14 +30,70 @@ $(document).ready(function(){
         $("#image3").show();
     });
 });
-// $(document).ready(function(event){
-//     $("#enoc").submit(function(){
-//         var name=$("input#enock1").val();
-//         var email=$("input#enock2").val();
-//         var message=$("textarea#enock3").val();
-//         if($("input#enock1").val()&& $("input#enock2").val()){
-//             alert(name +"we have received your message. Thank you for reaching out to us.");
-//         }
-//     });
-// });
 
+$("button").click(function () {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+    if (name === "") {
+      alert("Please Insert your name")
+    } else
+         if(email === ""){
+        alert("Enter your Email")
+    }else
+       if(message === "") {
+      alert("Please insert your message!")
+    }else {
+       alert(' Dear ' + name + ' we have received your message successfully. ' + ' Feel free to reach out to us at anytime');
+    }
+  });
+
+
+$ ("#project1").mouseover(function () {
+    $("#overlay0").show()
+});
+  $ ("#project1").mouseout(function () {
+    $("#overlay0").hide();
+})
+ $ ("#project2").mouseover(function () {
+     $("#overlay1").show()
+ });
+   $ ("#project2").mouseout(function () {
+     $("#overlay1").hide();
+ })
+ $ ("#project3").mouseover(function () {
+    $("#overlay2").show()
+});
+  $ ("#project3").mouseout(function () {
+    $("#overlay2").hide();
+})
+$ ("#project4").mouseover(function () {
+    $("#overlay3").show()
+});
+  $ ("#project4").mouseout(function () {
+    $("#overlay3").hide();
+})
+$ ("#project5").mouseover(function () {
+    $("#overlay4").show()
+});
+  $ ("#project5").mouseout(function () {
+    $("#overlay4").hide();
+})
+$ ("#project6").mouseover(function () {
+    $("#overlay5").show()
+});
+  $ ("#project6").mouseout(function () {
+    $("#overlay5").hide();
+})
+$ ("#project7").mouseover(function () {
+    $("#overlay6").show()
+});
+  $ ("#project7").mouseout(function () {
+    $("#overlay6").hide();
+})
+$ ("#project8").mouseover(function () {
+    $("#overlay7").show()
+});
+  $ ("#project8").mouseout(function () {
+    $("#overlay7").hide();
+})
