@@ -1,6 +1,6 @@
 .pictures{
     text-align: center;
-    background-image: url("/images/h_img.jpg");
+    background-image: url("../images/h_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -9,7 +9,7 @@
 }
 .services{
     text-align: center;
-    background-image: url("/images/s_image.jpg");
+    background-image: url("../images/s_image.jpg");
     color: white;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -18,7 +18,7 @@
     text-align: center;
 }
 #contact{
-    background-image: url("/images/c_image.jpg");
+    background-image: url("../images/c_image.jpg");
     text-align: center;
     height: 500px;
     background-size: cover;
