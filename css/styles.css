@@ -14,6 +14,9 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.development, .design, .product{
+    display: none;
+}
 .about{
     text-align: center;
 }
