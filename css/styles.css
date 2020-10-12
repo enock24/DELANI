@@ -34,17 +34,11 @@
   text-align: center;
 }
 
-#enock{
-    background:none;
- 
-}
 h2{
     text-align: center;
 }
 
-#enock::placeholder{
-    color: white;
-}
+
 .button{
     text-align: center;
 }
@@ -79,4 +73,5 @@ h1{
   
   #name,#email,#message{
       background-color: transparent;
+      color: white;
   }
